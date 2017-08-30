@@ -1,0 +1,35 @@
+name: tensormouse
+channels:
+- https://conda.binstar.org/menpo
+- defaults
+dependencies:
+- hdf5=1.8.17=2
+- mkl=2017.0.3=0
+- numpy=1.13.1=py35_0
+- openssl=1.0.2l=0
+- pip=9.0.1=py35_1
+- python=3.5.4=0
+- readline=6.2=2
+- setuptools=27.2.0=py35_0
+- sqlite=3.13.0=0
+- tk=8.5.18=0
+- wheel=0.29.0=py35_0
+- xz=5.2.3=0
+- zlib=1.2.11=0
+- opencv3=3.1.0=py35_0
+- tbb=4.3_20141023=0
+- pip:
+  - bleach==1.5.0
+  - html5lib==0.9999999
+  - markdown==2.6.9
+  - protobuf==3.4.0
+  - pynput==1.3.7
+  - pyobjc-core==3.2.1
+  - pyobjc-framework-cocoa==3.2.1
+  - pyobjc-framework-quartz==3.2.1
+  - six==1.10.0
+  - tensorflow==1.3.0
+  - tensorflow-tensorboard==0.1.5
+  - werkzeug==0.12.2
+prefix: /Users/tadej/miniconda3/envs/tensormouse
+
