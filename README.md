@@ -11,9 +11,7 @@ TensorMouse also supports clicks currently triggered by clicking CTRL key and mo
 
 ## Getting Started
 1. `conda env create -f environment.yml`
-2. Activate environment:
-    * Windows: `activate tensormouse`
-    * Unix: `source activate tensormouse`
+2. `source activate tensormouse`
 2. `python tensormouse.py` 
     Optional arguments (default value):
     * Device index of the camera `--source=0`
