@@ -60,7 +60,7 @@ def keyrelease_listener(key):
     if mouse_state.value == MOUSE_DRAGGING:
         mouse_state.value = MOUSE_RELEASE
 
-def main_worker(object_id, camera_id):
+def main_worker(object_id, camera_id, object_label):
     """ Main worker that connects webcam with tensorflow and mouse_move_worker """
 
     global mouse_state
@@ -85,6 +85,11 @@ def main_worker(object_id, camera_id):
 
     # get tensofrlow object detection graph
     detection_graph, sess = object_detection.graph_and_sess()
+
+    # nofify used of successful startup
+    print(u'\x1b[6;30;42m \u2713 TensorMouse started successfully! \033[0m')
+    print('Tracking object: ' + object_label)
+    print("Use CTRL to perform clicks, ALT to cursor drag and press CAPS_LOCK to exit")
 
     while(True):
         _, frame = webcam.read()
