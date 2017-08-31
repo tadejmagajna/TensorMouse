@@ -30,4 +30,4 @@ if __name__ == '__main__':
         sys.exit()
     
     #start main worker
-    workers.main_worker(object_id, args.video_source)
+    workers.main_worker(object_id, args.video_source, args.object_name)
