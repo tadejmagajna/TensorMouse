@@ -31,6 +31,7 @@ Exit by clicking CAPS_LOCK
 - datitran/object_detector_app
 
 ## Notes
+- Currently only supports UNIX systems
 - Make sure you have good lighting when using TensorMouse
 - Object deteciton on screen edges is poor. TODO: scale cursor movement so that near edge object movements will move cursor to edge
 
