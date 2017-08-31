@@ -3,7 +3,6 @@ channels:
 - https://conda.binstar.org/menpo
 - defaults
 dependencies:
-- hdf5=1.8.17=2
 - mkl=2017.0.3=0
 - numpy=1.13.1=py35_0
 - openssl=1.0.2l=0
@@ -16,7 +15,7 @@ dependencies:
 - wheel=0.29.0=py35_0
 - xz=5.2.3=0
 - zlib=1.2.11=0
-- opencv3=3.1.0=py35_0
+- jlaura::opencv3=3.0.0=py35_0
 - tbb=4.3_20141023=0
 - pip:
   - bleach==1.5.0
