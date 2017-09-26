@@ -38,7 +38,7 @@ def mouse_move_worker(objectX, objectY, mouse_state):
             mouse_state.value = MOUSE_NULL
 
         if (objectX.value > 0 and objectY.value > 0):
-            mouse.position = ((1-objectX.value)*x, objectY.value*y)
+            mouse.position = (int((1-objectX.value)*x), int(objectY.value*y))
 
 
 def keypress_listener(key):
