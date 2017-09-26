@@ -1,32 +1,37 @@
 name: tensormouse
 channels:
-- https://conda.binstar.org/menpo
+- conda-forge
 - defaults
 dependencies:
+- ca-certificates=2017.7.27.1=0
+- certifi=2017.7.27.1=py36_0
+- icu=58.1=vc14_1
+- jpeg=9b=vc14_1
+- libpng=1.6.28=vc14_1
+- libtiff=4.0.7=vc14_0
+- libwebp=0.5.2=vc14_7
+- opencv=3.3.0=py36_200
+- openssl=1.0.2l=vc14_0
+- pip=9.0.1=py36_0
+- python=3.6.2=0
+- qt=5.6.2=vc14_1
+- setuptools=36.3.0=py36_0
+- vc=14=0
+- vs2015_runtime=14.0.25420=0
+- wheel=0.30.0=py_1
+- wincertstore=0.2=py36_0
+- zlib=1.2.8=vc14_3
 - mkl=2017.0.3=0
-- numpy=1.13.1=py35_0
-- openssl=1.0.2l
-- pip=9.0.1=py35_1
-- python=3.5.4=0
-- setuptools=27.2.0=py35_0
-- sqlite=3.13.0
-- tk=8.5.18
-- wheel=0.29.0=py35_0
-- zlib=1.2.11
-- opencv3=3.1.0
-- conda-forge::tbb
+- numpy=1.13.1=py36_0
 - pip:
   - bleach==1.5.0
   - html5lib==0.9999999
   - markdown==2.6.9
   - protobuf==3.4.0
   - pynput==1.3.7
-  - pyobjc-core==3.2.1
-  - pyobjc-framework-cocoa==3.2.1
-  - pyobjc-framework-quartz==3.2.1
-  - six==1.10.0
+  - six==1.11.0
   - tensorflow==1.3.0
-  - tensorflow-tensorboard==0.1.5
+  - tensorflow-tensorboard==0.1.7
   - werkzeug==0.12.2
-prefix: /Users/tadej/miniconda3/envs/tensormouse
+prefix: C:\Users\psacaMan\Miniconda3\envs\tensormouse
 
