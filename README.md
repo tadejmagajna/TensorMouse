@@ -46,7 +46,7 @@ Exit by clicking CAPS_LOCK
 - [OpenCV 3.1](http://opencv.org/)
 
 ## Technologies Used
-- [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/object_detection)
+- [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 - [COCO dataset](http://mscoco.org/dataset/)
 - datitran/object_detector_app
 
