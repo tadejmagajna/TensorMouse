@@ -9,6 +9,10 @@ Project includes ssd_mobilenet_v1_coco_11_06_2017 Tensorflow frozen graph traine
 
 TensorMouse also supports clicks currently triggered by clicking CTRL key and mouse drags triggered by ALT key.
 
+<p align="center">
+  <img src="https://github.com/tadejmagajna/TensorMouse/blob/master/docs/playing_games.gif?raw=true">
+</p>
+
 ## Getting Started
 ### Linux/MacOS
 1. Make sure you have anaconda installed
