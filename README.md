@@ -1,6 +1,11 @@
 # TensorMouse
-Control your mouse cursor by moving objects in front of webcam using Tensorflow Object Detection API
 
+<p align="center">
+  <img src="https://github.com/tadejmagajna/TensorMouse/blob/master/docs/playing_games.gif?raw=true">
+</p>
+
+Control your mouse cursor by moving objects in front of webcam using Tensorflow Object Detection API.
+  
 TensorMouse allows you to control your cursor by moving random objects (like cups, apples or bananas) in front of webcam to move your cursor as a replacement for mouse or touchpad.
 
 Tensorflow Object Detection API trained on the COCO dataset supports up to 90 different types of objects that can be used to move the cursor.
@@ -9,15 +14,33 @@ Project includes ssd_mobilenet_v1_coco_11_06_2017 Tensorflow frozen graph traine
 
 TensorMouse also supports clicks currently triggered by clicking CTRL key and mouse drags triggered by ALT key.
 
+
+
 ## Getting Started
-1. `conda env create -f environment.yml`
-2. `source activate tensormouse`
-2. `python tensormouse.py` 
-    Optional arguments (default value):
-    * Device index of the camera `--source=0`
-    * Object name - name of object to track (see graphs/labels.json for available options) `--object=cup`
-    * Path to frozen tensofrlow graph `--graphpath=ssd_mobilenet_v1_coco_11_06_2017`
-2. Wait for `✓ TensorMouse started successfully!` message to use the application. Use CTRL for clicks and ALT for cursor draging.
+### Linux/MacOS
+1. Make sure you have anaconda installed
+2. Open a terminal and navigate to project root
+3. `conda env create -f environment.yml`
+4. `source activate tensormouse`
+### Windows
+1. Make sure you have anaconda installed
+2. Open a terminal and navigate to project root
+3. `conda env create -f environment-win.yml`
+4. `activate tensormouse`
+
+## Usage
+```
+python tensormouse.py
+```
+Optional arguments (default value):
+ * `--source=0` Device index of the camera
+ * `--object=cup` Object name - name of object to track (see graphs/labels.json for available options) 
+ * `--graphpath=ssd_mobilenet_v1_coco_11_06_2017` Path to frozen tensofrlow graph 
+
+
+Wait for `✓ TensorMouse started successfully!` message to use the application.
+
+Use CTRL for clicks and ALT for cursor draging.
 Exit by clicking CAPS_LOCK
 
 ## Requirements
@@ -26,14 +49,14 @@ Exit by clicking CAPS_LOCK
 - [OpenCV 3.1](http://opencv.org/)
 
 ## Technologies Used
-- [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/object_detection)
+- [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 - [COCO dataset](http://mscoco.org/dataset/)
 - datitran/object_detector_app
 
 ## Notes
-- Currently only supports UNIX systems
 - Make sure you have good lighting when using TensorMouse
-- Object deteciton on screen edges is poor. TODO: scale cursor movement so that near edge object movements will move cursor to edge
+- Frame rate will be very low on low performing machines
+- Object deteciton on screen edges is poor. (todo: scale cursor movement so that near edge object movements will move cursor to edge)
 
 ## Copyright
 
