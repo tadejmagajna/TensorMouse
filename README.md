@@ -1,7 +1,7 @@
 # TensorMouse
 
 <p align="center">
-  <img src="https://github.com/tadejmagajna/TensorMouse/blob/master/docs/playing_games.gif?raw=true">
+  <img src="/docs/git.gif">
 </p>
 
 Control your mouse cursor by moving objects in front of webcam using Tensorflow Object Detection API.
