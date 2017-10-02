@@ -1,8 +1,5 @@
 # TensorMouse
 
-<p align="center">
-  <img src="https://i.imgur.com/kg2yiIZ.png">
-</p>
 
 Control your mouse cursor by moving objects in front of webcam using Tensorflow Object Detection API.
   
