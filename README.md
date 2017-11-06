@@ -3,7 +3,7 @@
 
 Control your mouse cursor by moving objects in front of webcam using Tensorflow Object Detection API.
 
-![alt text](https://github.com/tadejmagajna/TensorMouse/blob/master/docs/preview.png?raw=true)
+![alt text](https://github.com/tadejmagajna/TensorMouse/blob/master/docs/review2.png?raw=true)
 
 TensorMouse allows you to control your cursor by moving random objects (like cups, apples or bananas) in front of webcam to move your cursor as a replacement for mouse or touchpad.
 
