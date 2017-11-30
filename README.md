@@ -47,10 +47,9 @@ Exit by clicking CAPS_LOCK
 - [TensorFlow 1.3](https://www.tensorflow.org/)
 - [OpenCV 3.1](http://opencv.org/)
 
-## Technologies Used
+## Sources
 - [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
-- [COCO dataset](http://mscoco.org/dataset/)
-- datitran/object_detector_app
+- [Train Images] (https://github.com/vc1492a/Hey-Waldo)
 
 ## Notes
 - Make sure you have good lighting when using TensorMouse
